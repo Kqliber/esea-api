@@ -10,7 +10,7 @@ import org.jetbrains.annotations.Nullable;
 
 import java.io.IOException;
 
-public class BanReasonTypeAdapter extends TypeAdapter<BanReason> {
+public final class BanReasonTypeAdapter extends TypeAdapter<BanReason> {
 
     @Override
     public void write(@NotNull final JsonWriter out, @Nullable final BanReason value) throws IOException {
